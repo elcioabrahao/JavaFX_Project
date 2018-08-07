@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="acReceiptMainContent" prefHeight="509.0" prefWidth="763.0" stylesheets="@../../style/MainStyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.stmain1.ViewAllDevoteesController">
+   <children>
+      <BorderPane layoutX="253.0" layoutY="132.0" prefHeight="509.0" prefWidth="763.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <TableView fx:id="tblAllDevotee" onMouseClicked="#tblDevoteeOnClick" prefHeight="375.0" prefWidth="733.0" style="-fx-background-color: none;" BorderPane.alignment="CENTER">
+              <columns>
+                <TableColumn fx:id="tblDevName" prefWidth="152.0" text="Name" />
+                <TableColumn fx:id="tblDevPhone" prefWidth="100.0" text="Phone" />
+                  <TableColumn fx:id="tblDevEmail" prefWidth="147.0" text="Email" />
+                  <TableColumn fx:id="tblDevAddr" prefWidth="301.0" text="Address" />
+              </columns>
+            </TableView>
+         </center>
+         <top>
+            <HBox alignment="CENTER" prefHeight="65.0" prefWidth="763.0" spacing="10.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField fx:id="tfSearchbyName" onKeyReleased="#tfSearchbyNameOnKeyReleased" prefHeight="33.0" prefWidth="187.0" promptText="Search by Name" />
+                  <TextField fx:id="tfSearchbyPhone" onKeyReleased="#tfSearchbyPhoneOnKeyReleased" prefHeight="33.0" prefWidth="187.0" promptText="Search by Phone" />
+                  <TextField fx:id="tfSearchbyEmail" onKeyReleased="#tfSearchbyEmailOnKeyReleased" prefHeight="33.0" prefWidth="187.0" promptText="Search by Email" />
+                  <Button fx:id="btnRefresh" mnemonicParsing="false" onAction="#btnRefreshOnAction" prefHeight="32.0" prefWidth="32.0" />
+               </children></HBox>
+         </top>
+         <bottom>
+            <HBox alignment="CENTER_RIGHT" prefHeight="69.0" prefWidth="763.0" spacing="10.0" BorderPane.alignment="CENTER">
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+               <children>
+                  <Button fx:id="btnCreateReceipt" mnemonicParsing="false" onAction="#btnCreateReceiptOnAction" text="Create Receipt" />
+                  <Button fx:id="btnUpdate" mnemonicParsing="false" onAction="#btnUpdateOnAction" text="Update" />
+                  <Button fx:id="btnAdd" mnemonicParsing="false" onAction="#btnAddOnAction" text="Add New Devotee" />
+               </children>
+            </HBox>
+         </bottom>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets left="30.0" right="30.0" />
+         </padding>
+      </BorderPane>
+   </children>
+</AnchorPane>

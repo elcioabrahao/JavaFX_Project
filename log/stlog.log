@@ -1,0 +1,107 @@
+2018-08-07 15:04:16 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:04:16 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:04:16 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:04:16 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:04:16 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:04:16 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:04:16 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:04:17 INFO  ViewAllReceiptsController:95 - CLICK
+2018-08-07 15:04:18 INFO  ViewAllReceiptsController:95 - CLICK
+2018-08-07 15:04:19 INFO  ViewReceiptController:91 - inside initialize
+2018-08-07 15:05:42 INFO  DevoteeDetailsCRUD:224 - INSIDE getAllDevoteeDetails
+2018-08-07 15:05:42 INFO  DevoteeDetailsCRUD:250 - EXITING getAllDevoteeDetails
+2018-08-07 15:05:42 INFO  ViewAllDevoteesController:95 - jjjjjjjjjjjjjjj[bean.DevoteeDetails@587ad2, bean.DevoteeDetails@1988b56, bean.DevoteeDetails@48a3b5, bean.DevoteeDetails@1e223c1]
+2018-08-07 15:05:50 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:05:50 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:05:50 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:05:50 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:05:50 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:05:50 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:05:50 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:05:50 INFO  ViewAllReceiptsController:95 - CLICK
+2018-08-07 15:05:54 INFO  ViewAllReceiptsController:95 - CLICK
+2018-08-07 15:05:54 INFO  ViewReceiptController:91 - inside initialize
+2018-08-07 15:05:54 INFO  ViewReceiptController:172 - controller.stmain1.ViewReceiptController.viewReceiptDetails()
+2018-08-07 15:05:54 INFO  ViewReceiptController:173 - dd.phone1234567890ASDF2018-05-05ARCHANA
+2018-08-07 15:05:54 INFO  ViewReceiptController:174 - dd.phoneASDF
+2018-08-07 15:05:54 INFO  ViewAllReceiptsController:122 - CREATE RECEIPT SCREEN IS CLOSED AFTER SUCCESSFULLY SAVING RECEIPT AND DEVOTEE DETAILS TO DATABASE
+2018-08-07 15:05:54 INFO  ViewAllReceiptsController:126 - VIEW RECEIPT SCREEN IS DISPLAYED NOW
+2018-08-07 15:06:22 INFO  AddDevoteeController:102 - dateeeee: (2018-08-07),(2018-08-07)
+2018-08-07 15:06:22 INFO  AddDevoteeController:106 - TFCOUNTRY: US
+2018-08-07 15:06:44 INFO  AddDevoteeController:142 - Time in milliseconds :2018-08-07 15:06:44.524
+2018-08-07 15:06:44 INFO  DevoteeDetailsCRUD:34 - INSIDE CHECK IF DEVOTEE EXISTS METHOD
+2018-08-07 15:06:44 INFO  DevoteeDetailsCRUD:103 - stmodel.DevoteeDetailsCRUD.saveDevoteeDet() --- inserting the devotee details -1
+2018-08-07 15:06:44 INFO  DevoteeDetailsCRUD:204 - INSIDE getLastDevoteeID
+2018-08-07 15:06:44 INFO  DevoteeDetailsCRUD:208 - stmodel.DevoteeDetailsCRUD.getLastDevoteeID()
+2018-08-07 15:06:44 INFO  AddDevoteeController:161 - controller.stmain1.AddDevoteeController.btnSaveOnAction() ---- SUCCESSFULLY SAVED DEVOTEE DETAILS
+2018-08-07 15:06:44 INFO  ViewDevoteeController:88 - dd.phone123456
+2018-08-07 15:06:44 INFO  ViewDevoteeController:89 - dd.phone123456
+2018-08-07 15:06:44 INFO  AddDevoteeController:182 - ADD DEVOTEE SCREEN IS CLOSED AFTER SUCCESSFULLY SAVING DEVOTEE DETAILS TO DATABASE
+2018-08-07 15:06:44 INFO  AddDevoteeController:186 - VIEW DEVOTEE SCREEN IS DISPLAYED NOW
+2018-08-07 15:06:50 INFO  DevoteeDetailsCRUD:224 - INSIDE getAllDevoteeDetails
+2018-08-07 15:06:50 INFO  DevoteeDetailsCRUD:250 - EXITING getAllDevoteeDetails
+2018-08-07 15:06:50 INFO  ViewAllDevoteesController:95 - jjjjjjjjjjjjjjj[bean.DevoteeDetails@26390a, bean.DevoteeDetails@4f5911, bean.DevoteeDetails@1f5a6a8, bean.DevoteeDetails@19f009]
+2018-08-07 15:06:51 INFO  ViewAllDevoteesController:107 - CLICK
+2018-08-07 15:07:00 INFO  DevoteeDetailsCRUD:224 - INSIDE getAllDevoteeDetails
+2018-08-07 15:07:00 INFO  DevoteeDetailsCRUD:250 - EXITING getAllDevoteeDetails
+2018-08-07 15:07:00 INFO  ViewAllDevoteesController:95 - jjjjjjjjjjjjjjj[bean.DevoteeDetails@128ff64, bean.DevoteeDetails@1ec30c1, bean.DevoteeDetails@727916, bean.DevoteeDetails@24a1a1]
+2018-08-07 15:07:03 INFO  DevoteeDetailsCRUD:260 - INSIDE searchViewByName
+2018-08-07 15:07:03 INFO  DevoteeDetailsCRUD:292 - EXITING searchViewByName
+2018-08-07 15:07:03 INFO  ViewAllDevoteesController:220 - jjjjjjjjjjjjjjj[bean.DevoteeDetails@cabfd4, bean.DevoteeDetails@1c86f95, bean.DevoteeDetails@121da50, bean.DevoteeDetails@186112b, bean.DevoteeDetails@a52990]
+2018-08-07 15:07:03 INFO  DevoteeDetailsCRUD:260 - INSIDE searchViewByName
+2018-08-07 15:07:03 INFO  DevoteeDetailsCRUD:292 - EXITING searchViewByName
+2018-08-07 15:07:03 INFO  ViewAllDevoteesController:220 - jjjjjjjjjjjjjjj[bean.DevoteeDetails@598a58, bean.DevoteeDetails@ce1c5d, bean.DevoteeDetails@1e65717, bean.DevoteeDetails@75e81, bean.DevoteeDetails@281f93]
+2018-08-07 15:07:07 INFO  ViewAllDevoteesController:107 - CLICK
+2018-08-07 15:07:08 INFO  ViewAllDevoteesController:146 - controller.stmain1.ViewAllDevoteesController.btnCreateReceiptOnAction()
+2018-08-07 15:07:09 INFO  CreateReceiptController:121 - TFDATE: 2018-08-07
+2018-08-07 15:07:16 INFO  CreateReceiptController:149 - controller.stmain1.CreateReceiptController.btnSaveOnAction()
+2018-08-07 15:07:16 INFO  CreateReceiptController:152 - tferror errordetail: 
+2018-08-07 15:07:16 INFO  CreateReceiptController:161 - Time in milliseconds :2018-08-07 15:07:16.731
+2018-08-07 15:07:16 INFO  ReceiptDetailsCRUD:142 - stmodel.receipdetailscrud.getlastreceiptid()
+2018-08-07 15:07:16 INFO  CreateReceiptController:211 - controller.stmain1.CreateReceiptController.btnSaveOnAction() ----- SUCESSFULLY SAVED DATA
+2018-08-07 15:07:16 INFO  ViewReceiptController:91 - inside initialize
+2018-08-07 15:07:16 INFO  ViewReceiptController:172 - controller.stmain1.ViewReceiptController.viewReceiptDetails()
+2018-08-07 15:07:16 INFO  ViewReceiptController:173 - dd.phone1234562018-08-07ARCHANA
+2018-08-07 15:07:16 INFO  ViewReceiptController:174 - dd.phone123456
+2018-08-07 15:07:16 INFO  CreateReceiptController:231 - CREATE RECEIPT SCREEN IS CLOSED AFTER SUCCESSFULLY SAVING RECEIPT AND DEVOTEE DETAILS TO DATABASE
+2018-08-07 15:07:16 INFO  CreateReceiptController:234 - VIEW RECEIPT SCREEN IS DISPLAYED NOW
+2018-08-07 15:09:49 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:09:49 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:09:49 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:09:49 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:09:49 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:09:49 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:09:49 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:09:49 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:09:49 INFO  ViewAllReceiptsController:95 - CLICK
+2018-08-07 15:09:57 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:09:57 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:09:57 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:09:57 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:09:57 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:09:57 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:09:57 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:09:57 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:09:57 INFO  ViewAllReceiptsController:95 - CLICK
+2018-08-07 15:09:59 INFO  ViewAllReceiptsController:95 - CLICK
+2018-08-07 15:09:59 INFO  ViewReceiptController:91 - inside initialize
+2018-08-07 15:09:59 INFO  ViewReceiptController:172 - controller.stmain1.ViewReceiptController.viewReceiptDetails()
+2018-08-07 15:09:59 INFO  ViewReceiptController:173 - dd.phone1234567890ASDF2018-07-30
+2018-08-07 15:09:59 INFO  ViewReceiptController:174 - dd.phoneASDF
+2018-08-07 15:09:59 INFO  ViewAllReceiptsController:122 - CREATE RECEIPT SCREEN IS CLOSED AFTER SUCCESSFULLY SAVING RECEIPT AND DEVOTEE DETAILS TO DATABASE
+2018-08-07 15:09:59 INFO  ViewAllReceiptsController:126 - VIEW RECEIPT SCREEN IS DISPLAYED NOW
+2018-08-07 15:10:08 INFO  DevoteeDetailsCRUD:224 - INSIDE getAllDevoteeDetails
+2018-08-07 15:10:08 INFO  DevoteeDetailsCRUD:250 - EXITING getAllDevoteeDetails
+2018-08-07 15:10:08 INFO  ViewAllDevoteesController:95 - jjjjjjjjjjjjjjj[bean.DevoteeDetails@f8d4b6, bean.DevoteeDetails@1b15d4f, bean.DevoteeDetails@19d0b46, bean.DevoteeDetails@17ae1a1, bean.DevoteeDetails@1f9c5dc]
+2018-08-07 15:10:08 INFO  ViewAllDevoteesController:107 - CLICK
+2018-08-07 15:10:09 INFO  ViewAllDevoteesController:107 - CLICK
+2018-08-07 15:10:16 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:10:16 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:10:16 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:10:16 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:10:16 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:10:16 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:10:16 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:10:16 INFO  DevoteeDetailsCRUD:174 - INSIDE getDevoteeDetails
+2018-08-07 15:10:16 INFO  ViewAllReceiptsController:95 - CLICK
+2018-08-07 15:10:18 INFO  ViewAllReceiptsController:95 - CLICK

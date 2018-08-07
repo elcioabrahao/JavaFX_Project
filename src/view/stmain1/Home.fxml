@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="apMother" prefHeight="620.0" prefWidth="989.0" stylesheets="@../../style/MainStyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.stmain1.HomeController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="1000.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="620.0" prefWidth="726.0">
+               <children>
+                  <AnchorPane fx:id="apDesignPane" prefHeight="384.0" prefWidth="668.0">
+                     <children>
+                        <Pane fx:id="HomeHeaderPane" layoutY="-45.0" prefHeight="118.0" prefWidth="837.0" />
+                        <Pane fx:id="ViewReceiptsPane" layoutX="142.0" layoutY="126.0" onMouseClicked="#hlViewAllReceipt" prefHeight="129.0" prefWidth="127.0">
+                           <effect>
+                              <Glow />
+                           </effect>
+                        </Pane>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="142.0" layoutY="269.0" prefHeight="17.0" prefWidth="127.0" text="View Receipts" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold Italic" size="18.0" />
+                           </font>
+                        </Label>
+                        <Pane fx:id="AddDevPane" layoutX="355.0" layoutY="126.0" onMouseClicked="#hlAddDevotee" prefHeight="129.0" prefWidth="127.0">
+                           <effect>
+                              <Glow />
+                           </effect>
+                        </Pane>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="355.0" layoutY="269.0" prefHeight="17.0" prefWidth="127.0" text="Add Devotee" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold Italic" size="18.0" />
+                           </font>
+                        </Label>
+                        <Pane fx:id="SearchDevPane" layoutX="591.0" layoutY="126.0" onMouseClicked="#h1ViewAllDevotees" prefHeight="129.0" prefWidth="127.0" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="588.0" layoutY="269.0" prefHeight="27.0" prefWidth="134.0" text="Search Devotee" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold Italic" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
