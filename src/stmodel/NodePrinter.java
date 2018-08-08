@@ -15,38 +15,28 @@ import javafx.scene.web.WebView;
  * Prints any given area of a node to multiple pages
  */
 public class NodePrinter {
+
     final static Logger logger = Logger.getLogger(NodePrinter.class.getName());
 
     public static void printWebView(WebView webView) {
         Printer printer = Printer.getDefaultPrinter();
-        
-        PageLayout pageLayout = printer.createPageLayout(Paper.A4, 
-                               PageOrientation.PORTRAIT, Printer.MarginType.DEFAULT);
-        
-PrinterJob job = PrinterJob.createPrinterJob(printer);
-//webView.
 
+        PageLayout pageLayout = printer.createPageLayout(Paper.A4,
+                PageOrientation.PORTRAIT, Printer.MarginType.DEFAULT);
+
+        PrinterJob job = PrinterJob.createPrinterJob(printer);
         // Printable area
         double pWidth = pageLayout.getPrintableWidth();
         double pHeight = pageLayout.getPrintableHeight();
         logger.info("Printable area is " + pWidth + " width and "
                 + pHeight + " height.");
-        //webView.setPrefSize(pWidth, pHeight);
-job.getJobSettings().setPageLayout(pageLayout);
-if (job != null) {
-    System.out.println(job.getJobSettings().getPageLayout());
-    webView.getEngine().print(job);
-    job.endJob();
-}
-
-        //PrinterJob job = PrinterJob.createPrinterJob();
-        //if (job != null) {
-          //  webView.getEngine().print(job);
-
-            //job.endJob();
-            //System.exit(0);
-
+        job.getJobSettings().setPageLayout(pageLayout);
+        if (job != null) {
+            System.out.println(job.getJobSettings().getPageLayout());
+            webView.getEngine().print(job);
+            job.endJob();
         }
+    }
 
     public static void printImage(Node node) {
 
@@ -61,19 +51,19 @@ if (job != null) {
                 + pHeight + " height.");
 
         // Node's (Image) dimensions
-        logger.info(""+node.getProperties());
+        logger.info("" + node.getProperties());
         double nWidth = node.getBoundsInParent().getWidth();
         double nHeight = node.getBoundsInParent().getHeight();
         logger.info("Node's dimensions are " + nWidth + " width and "
                 + nHeight + " height");
 
-        // How much space is left? Or is the image to big?
+        // Check if image is big !
         double widthLeft = pWidth - nWidth;
         double heightLeft = pHeight - nHeight;
         logger.info("Width left: " + widthLeft
                 + " height left: " + heightLeft);
 
-        // scale the image to fit the page in width, height or both
+        // fit the image
         double scale = 0;
 
         if (widthLeft < heightLeft) {
@@ -96,72 +86,51 @@ if (job != null) {
             boolean success = job.printPage(node);
             if (success) {
                 job.endJob();
-                //System.exit(0);
             }
         }
 
     }
 
     public static void print(Node node) {
-        try{
-        logger.info("Creating a printer job...");
+        try {
+            logger.info("Creating a printer job...");
 
+            PrinterJob job = PrinterJob.createPrinterJob();
+            if (job != null) {
+                logger.info("" + job.jobStatusProperty().asString());
+
+                double newWidth = node.getBoundsInParent().getWidth();
+                double newHeight = node.getBoundsInParent().getHeight();
+                logger.info("Node's dimensions: " + newWidth
+                        + " width " + newHeight + " height");
+                boolean printed = job.printPage(node);
+                if (printed) {
+                    job.endJob();
+                } else {
+                    logger.info("Printing failed.");
+                }
+            } else {
+                logger.info("Could not create a printer job.");
+            }
+        } catch (Exception e) {
+            Logger.getLogger(NodePrinter.class.getName()).log(Level.FATAL, null, e);
+        }
+    }
+
+    public static void printNode(Node node) {
         PrinterJob job = PrinterJob.createPrinterJob();
-        if (job != null) {
-            logger.info(""+job.jobStatusProperty().asString());
 
-        // after scale you can check the size fit in the printable area
-        double newWidth = node.getBoundsInParent().getWidth();
-        double newHeight = node.getBoundsInParent().getHeight();
-        logger.info("Node's dimensions: " + newWidth
-                + " width " + newHeight + " height");
+        if (job != null) {
             boolean printed = job.printPage(node);
+
             if (printed) {
                 job.endJob();
             } else {
                 logger.info("Printing failed.");
             }
         } else {
-            logger.info("Could not create a printer job.");
-        }
-        }catch(Exception e){
-            Logger.getLogger(NodePrinter.class.getName()).log(Level.FATAL, null, e);
+            logger.info("Printing failed.");
         }
     }
-    public static void printNode(Node node) 
-	{
-		// Define the Job Status Message
-		//jobStatus.textProperty().unbind();
-		//jobStatus.setText("Creating a printer job...");
-		
-		// Create a printer job for the default printer
-		PrinterJob job = PrinterJob.createPrinterJob();
-		
-		if (job != null) 
-		{
-			// Show the printer job status
-			//jobStatus.textProperty().bind(job.jobStatusProperty().asString());
-			
-			// Print the node
-			boolean printed = job.printPage(node);
-
-			if (printed) 
-			{
-				// End the printer job
-				job.endJob();
-			} 
-			else 
-			{
-				// Write Error Message
-				//jobStatus.textProperty().unbind();
-				//jobStatus.setText("Printing failed.");
-			}
-		} 
-		else 
-		{
-			// Write Error Message
-//			jobStatus.setText("Could not create a printer job.");
-		}
-	}	
 
 }
